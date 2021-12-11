@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TabViewComponent } from './tab-view/tab-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TabViewComponent
   ],
   imports: [
     BrowserModule
