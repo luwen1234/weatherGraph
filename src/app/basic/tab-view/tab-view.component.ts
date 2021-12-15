@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {TabViewModule} from 'primeng/tabview';
 
 @Component({
   selector: 'app-tab-view',
@@ -8,9 +7,10 @@ import {TabViewModule} from 'primeng/tabview';
 })
 export class TabViewComponent implements OnInit {
 
+  activeIndex: number = 0;
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
