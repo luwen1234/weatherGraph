@@ -7,22 +7,28 @@ import {TabViewModule} from "primeng/tabview";
 import {ButtonModule} from "primeng/button";
 import { MegaMenuComponent } from './basic/mega-menu/mega-menu.component';
 import {MegaMenuModule} from "primeng/megamenu";
-import { FieldSetComponent } from './basic/field-set/field-set.component';
-import {FieldsetModule} from "primeng/fieldset";
+import { PanelComponent } from './basic/panel/panel.component';
+import {PanelModule} from "primeng/panel";
+import {MenuModule} from "primeng/menu";
+import {ToastModule} from "primeng/toast";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
     AppComponent,
     TabViewComponent,
     MegaMenuComponent,
-    FieldSetComponent
+    PanelComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     TabViewModule,
     ButtonModule,
     MegaMenuModule,
-    FieldsetModule
+    PanelModule,
+    MenuModule,
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]

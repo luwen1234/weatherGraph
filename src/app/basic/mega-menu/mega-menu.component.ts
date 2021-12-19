@@ -15,31 +15,31 @@ export class MegaMenuComponent implements OnInit {
   ngOnInit() {
     this.items = [
       {
-        label: 'Videos', icon: 'pi pi-fw pi-video',
+        label: '预报', icon: 'pi pi-fw pi-video',
         items: [
           [
             {
-              label: 'Video 1',
-              items: [{label: 'Video 1.1'}, {label: 'Video 1.2'}]
+              label: '短期 1',
+              items: [{label: '测试短期 1.1'}, {label: '测试短期 1.2'}]
             },
             {
-              label: 'Video 2',
-              items: [{label: 'Video 2.1'}, {label: 'Video 2.2'}]
+              label: '短期 2',
+              items: [{label: '测试短期 2.1'}, {label: '测试短期 2.2'}]
             }
           ]
         ]
       },
       {
-        label: 'Users', icon: 'pi pi-fw pi-users',
+        label: '产品', icon: 'pi pi-fw pi-users',
         items: [
           [
             {
-              label: 'User 1',
-              items: [{label: 'User 1.1'}, {label: 'User 1.2'}]
+              label: '产品 1',
+              items: [{label: '测试产品 1.1'}, {label: '测试产品 1.2'}]
             },
             {
-              label: 'User 2',
-              items: [{label: 'User 2.1'}, {label: 'User 2.2'}]
+              label: '产品 2',
+              items: [{label: '测试产品 2.1'}, {label: '测试产品 2.2'}]
             },
           ]
         ]
